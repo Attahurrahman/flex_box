@@ -1,0 +1,39 @@
+.item {
+  width: 150px;
+  height: 150px;
+  font-size: 1.3em;
+  text-align: center;
+  border-radius: 3px;
+  align-content: space-around;
+  color: white;
+  text-decoration: solid;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 3px black solid;
+  gap: 20px;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+
+.item-1 {
+  background-color: pink;
+}
+.item-2 {
+  background-color: yellow;
+}
+.item-3 {
+  background-color: green;
+}
+.item-4 {
+  background-color: blue;
+}
+.item-5 {
+  background-color: brown;
+}
+.item-6 {
+  background-color: black;
+}
